@@ -1,10 +1,8 @@
 #  Smart Inventory Manager
 
 
-
 import sys
 import datetime
-
 
 # Initialize the inventory dictionary
 # Each item is a key with a value being a dictionary of its details
@@ -43,7 +41,6 @@ def list_inventory(inventory):
          print(f"   Last Updated: {item_details['last_updated']}")
          print("-" * 20)  # Separator for better readability
          
-
 
 def update_stock(inventory, item_name, new_stock):
     """
@@ -106,7 +103,6 @@ def display_inventory(inventory):
         # item_name += idx, item_name
         
 
-
 # ============= TEST VALUES AND FUNCTION CALLS =============
 
 # Adding sample items to the inventory
@@ -141,3 +137,5 @@ print(f"\nTotal Inventory Value: {format_currency(total_value)}\n")
 # Display the full inventory
 print(":``== Full Inventory ==``:")
 display_inventory(inventory)
+
+

@@ -1,5 +1,8 @@
 # Personal Budget tracker
+<<<<<<< HEAD
 
+=======
+>>>>>>> e0abafb2f98a3c1636ee8f88e1b7307357e1cd56
 
 from datetime import datetime                # Import datetime module for date handling
 
