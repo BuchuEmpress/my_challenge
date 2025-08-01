@@ -1,47 +1,4 @@
-## 🏆 Exercise 5: Personal Budget Tracker
-# **Points: 35** | **Time: 30 minutes**
-
-# ### 📂 Setup
-# Create folder `exercise_5/` with file `budget_tracker.py`
-
-# ### 🎯 Challenge
-# Build a comprehensive budget tracking system with analytics.
-
-# ### 📋 Requirements
-# 1. Track income and expenses by category and date
-# 2. Data structure: `{"2024-01": {"income": {"salary": 3000}, "expenses": {"food": 400}}}`
-# 3. Advanced features:
-#    - Monthly budget limits per category
-#    - Spending trend analysis (increasing/decreasing)
-#    - Budget variance warnings
-#    - Visual spending breakdown (text-based charts)
-#    - Export monthly summary
-# 4. Handle date validation and formatting
-
-# ### 💡 Key Concepts Tested
-# - Complex data manipulation, date handling
-# - Mathematical analysis, percentage calculations
-# - Advanced string formatting, data visualization
-
-# ### ✅ Sample Output
-# ```
-# === PERSONAL BUDGET TRACKER ===
-# Month: January 2024
-
-# 💰 FINANCIAL SUMMARY
-# Total Income: $3,200.00
-# Total Expenses: $2,150.00
-# Net Savings: $1,050.00 (32.8%)
-
-# 📊 EXPENSE BREAKDOWN
-# Food        ████████████░░░░░░░░ $430 (20.0%)
-# Transport   ████████░░░░░░░░░░░░ $200 (9.3%)
-# Housing     ████████████████████ $800 (37.2%)
-
-# ⚠️ BUDGET ALERTS:
-# Food: $30 over budget (107% of limit)
-
-
+# Personal Budget tracker
 
 
 from datetime import datetime                # Import datetime module for date handling
